@@ -1,0 +1,781 @@
+.site-header {
+    background: #ffffff;
+    padding: 18px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #fc8019;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.brand-icon {
+    width: 38px;
+    height: 38px;
+    background: #fc8019;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.app-link {
+    border: 1px solid #fc8019;
+    padding: 12px 18px;
+    border-radius: 10px;
+}
+
+.sign-in {
+    background: #111111;
+    color: white !important;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+
+
+.hero {
+    background: #fc8019;
+    min-height: 580px;
+    position: relative;
+    overflow: hidden;
+    padding: 55px 0 30px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.eyebrow {
+    color: #fff0d9;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: clamp(30px, 4vw, 43px);
+    line-height: 1.25;
+    margin: 22px 0 30px;
+}
+
+.hero h1 span {
+    color: #ffe1cf;
+}
+
+.hero-decor {
+    position: absolute;
+    width: 225px;
+    height: 280px;
+    object-fit: cover;
+    opacity: 0.85;
+    border-radius: 50%;
+}
+
+.decor-left {
+    left: -90px;
+    top: 130px;
+    transform: rotate(-12deg);
+}
+
+.decor-right {
+    right: -100px;
+    top: 100px;
+    transform: rotate(12deg);
+}
+
+
+
+
+.search-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    background: white;
+    width: 340px;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777777;
+    font-size: 13px;
+    text-align: left;
+}
+
+.location-box {
+    width: 290px;
+}
+
+
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: white;
+    min-height: 145px;
+    border-radius: 22px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.service-card h2 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.service-card p {
+    color: #777777;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.service-card small {
+    color: #fc8019;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.service-card img {
+    position: absolute;
+    width: 105px;
+    height: 90px;
+    object-fit: cover;
+    right: 8px;
+    bottom: 5px;
+    border-radius: 15px;
+}
+
+.round-arrow {
+    position: absolute;
+    left: 18px;
+    bottom: 15px;
+    background: #fc8019;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+
+
+.content-section {
+    background: white;
+    padding: 45px 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section-heading h2 {
+    color: #222222;
+    font-size: 21px;
+}
+
+.slider-arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.slider-arrows span {
+    width: 28px;
+    height: 28px;
+    background: #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.food-grid {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 125px;
+    height: 105px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.category p {
+    font-size: 13px;
+    color: #444444;
+    margin-top: 10px;
+}
+
+
+
+
+.instamart-heading {
+    margin-top: 55px;
+}
+
+.grocery-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grocery {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.grocery img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grocery p {
+    font-size: 13px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+
+
+
+.dineout-section {
+    background: white;
+    padding: 40px 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.restaurant-card {
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.restaurant-info {
+    padding: 12px;
+    position: relative;
+}
+
+.restaurant-info h3 {
+    font-size: 16px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+.restaurant-info span {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: #138b51;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.restaurant-info p {
+    font-size: 11px;
+    color: #777777;
+    margin-bottom: 7px;
+}
+
+.restaurant-info b {
+    display: block;
+    background: #d9f7e8;
+    color: #148653;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+
+
+
+.app-banner {
+    background: #171c20;
+    color: white;
+    padding: 35px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.app-banner h2 {
+    font-size: 26px;
+    margin: 12px 0;
+}
+
+.app-banner p {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+.mini-brand {
+    color: #fc8019 !important;
+    font-weight: bold;
+}
+
+.phone-art {
+    background: white;
+    padding: 8px;
+    border-radius: 22px;
+}
+
+.phone-screen {
+    width: 110px;
+    height: 145px;
+    border: 3px solid #222222;
+    border-radius: 15px;
+    text-align: center;
+    padding: 12px 5px;
+    color: #fc8019;
+    font-weight: bold;
+}
+
+.qr-grid {
+    background: #eeeeee;
+    color: #111111;
+    font-size: 25px;
+    margin: 12px 0;
+    padding: 8px;
+}
+
+.phone-screen small {
+    font-size: 8px;
+}
+
+.banner-food {
+    font-size: 35px;
+}
+
+
+
+
+.city-section {
+    background: white;
+    padding: 40px 30px;
+    margin-top: 25px;
+}
+
+.city-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.city-grid a {
+    border: 1px solid #eeeeee;
+    padding: 13px 8px;
+    border-radius: 8px;
+    text-align: center;
+    color: #444444;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    background: #f1f0f6;
+    margin-top: 30px;
+    padding: 50px 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.footer-content h3 {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.footer-content a {
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+
+.footer-brand p {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 15px;
+}
+
+.socials {
+    display: flex;
+    gap: 12px;
+}
+
+.socials a {
+    font-size: 17px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #cccccc;
+    margin-top: 35px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom strong {
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: inline-block;
+    background: #111111;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .service-grid {
+        gap: 12px;
+    }
+
+    .service-card {
+        padding: 14px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .restaurant-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .city-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .site-header {
+        padding: 14px 0;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .brand {
+        font-size: 24px;
+    }
+
+    .brand-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .app-link {
+        padding: 8px;
+    }
+
+    .sign-in {
+        padding: 9px 12px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 45px 0 30px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero-decor {
+        width: 100px;
+        height: 140px;
+        opacity: 0.35;
+    }
+
+    .decor-left {
+        left: -55px;
+    }
+
+    .decor-right {
+        right: -55px;
+    }
+
+    .search-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-box,
+    .location-box {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+        max-width: 340px;
+    }
+
+    .service-card {
+        min-height: 135px;
+    }
+
+    .content-section {
+        padding: 25px 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 17px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px 10px;
+    }
+
+    .category img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .category p,
+    .grocery p {
+        font-size: 11px;
+    }
+
+    .grocery img {
+        height: 90px;
+    }
+
+    .instamart-heading {
+        margin-top: 40px;
+    }
+
+    .dineout-section {
+        padding: 25px 15px;
+    }
+
+    .restaurant-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .restaurant-card img {
+        height: 110px;
+    }
+
+    .restaurant-info {
+        padding: 9px;
+    }
+
+    .restaurant-info h3 {
+        font-size: 13px;
+    }
+
+    .restaurant-info p {
+        font-size: 9px;
+    }
+
+    .app-banner {
+        padding: 25px 15px;
+        gap: 12px;
+    }
+
+    .app-banner h2 {
+        font-size: 19px;
+    }
+
+    .app-banner p {
+        font-size: 10px;
+    }
+
+    .phone-art {
+        display: none;
+    }
+
+    .banner-food {
+        font-size: 22px;
+    }
+
+    .city-section {
+        padding: 25px 15px;
+    }
+
+    .city-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .city-grid a {
+        font-size: 10px;
+        padding: 11px 5px;
+    }
+
+    .footer {
+        padding: 35px 0 20px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+    }
+
+    .footer-bottom span {
+        margin: 5px;
+    }
+
+}
+
+
+
+
+@media (max-width: 360px) {
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-links a {
+        font-size: 9px;
+    }
+
+    .restaurant-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
